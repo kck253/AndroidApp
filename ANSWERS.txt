@@ -1,0 +1,21 @@
+1.What's your favourite state management library for react and why?
+
+Ans. Redux is my favourite state management library because the component does not need to provide any state or method for its children components to share data among themselves.Everything is handled by redux that's why makes app easier to maintain.Redux can also be used for server-side rendering.But I have little working experience with redux, I have worked with react hooks and default state management tools that is State.
+
+2.Write some React Native best practices.
+
+Ans. 1. Don't create functions inside render.
+2. Reduce Image Size.
+3. Avoid Unnecessary Renders.
+4. Use class Component for stateful Container Component.
+5. Use Functional component for stateless presentational Component.
+6. Key of each element in list should be unique.
+7. Manage static image sources.
+
+3. Which coding style you prefer wet or dry and why?
+
+Ans. I will prefer DRY(Don't Repeat Yourself) coding style because it is easy to maintain.It is reusable because 2 or more instatnces of repeating code are merged. It becomes difficult to fix issues in repeated code, that's not the case in DRY coding.
+
+4. What do you prefer expo or vanilla react native and why?
+
+Ans. I would prefer vanilla React Native because we can link the packages that use native modules and connect native modules written in native languages,while in expo we can't add native modules , we can't use packages that requires linking. The size of the app built using expo is of big size as compared to react native, also certain problems may occur in a standalone app in expo. 
